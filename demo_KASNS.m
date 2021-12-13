@@ -17,7 +17,7 @@ lambda = 1e-3;
 alpha = 1e-4;
 maxiter = 100;
 
-[ ZB,P,C,S,Y2,iter,flag,Obj,errorRe,Accden] = solution_TSNS( W,tx',ty,dz,gamma,lambda,alpha,maxiter );
+[ ZB,P,C,S,Y2,iter,flag,Obj,errorRe,Accden] = solution_KASNS( W,tx',ty,dz,gamma,lambda,alpha,maxiter );
  
 
 
