@@ -1,4 +1,4 @@
-function [ ZB,P,C,S,Y2,i,flag,Obj,errorRe,Accden] = solution_TSNS( B,XB,YB,dz,gamma,lambda,alpha,maxiter )
+function [ ZB,P,C,S,Y2,i,flag,Obj,errorRe,Accden] = solution_KASNS( B,XB,YB,dz,gamma,lambda,alpha,maxiter )
 %SOLVE20210530 Summary of this function goes here
 %   Detailed explanation goes here
 
